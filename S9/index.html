@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio S9</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+</head>
+
+<body>
+  <section class="hero has-background-grey-dark is-fullheight">
+    <div class="hero-head navbar">
+
+    </div>
+
+
+
+    <div class="tile is-ancestor is-family-monospace ">
+      <div class="tile is-vertical is-8">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article>
+
+            </article>
+            <article>
+
+            </article>
+          </div>
+          <div class="tile is-parent is-align-items-center">
+            <article class="tile is-child notification is-info has-background-danger ">
+              <div class="content is-flex-direction-row">
+                <article class="media has-text-centered">
+                  <!-- <p class="title ">EJERCICIO 9</p> -->
+                  <div class="container">
+                    <div class="notification is-warning">
+                      <p class="title ">Peso Ideal</p>
+
+                      Ingrese <strong>sus datos</strong> para calcular su <strong>Peso Ideal</strong>
+                    </div>
+                  </div>
+
+                  <!-- <div class="media-center">
+                    <figure class="image is-48x48">
+                      <img src="./logo.png">
+                    </figure>
+
+                  </div> -->
+                  <!-- <div class="media-content">
+                    <span class="title tag is-black is-large">Ejercicio 9</span>
+
+                  </div> -->
+
+                </article>
+
+              </div>
+
+              <!-- <figure class="image is-64x64">
+                <img src="https://bulma.io/images/placeholders/640x480.png">
+              </figure>
+              <p class="title">EJERCICIO 9</p> -->
+
+
+              <form class="box">
+                <div class="field">
+                  <label class="label is-size-6">Talla</label>
+                  <div class="control">
+                    <input id="t" class="input" type="number" placeholder="talla en cm">
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="label is-size-6">Edad</label>
+                  <div class="control">
+                    <input id="e" class="input" type="number" placeholder="peso en kg">
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="label is-size-6">Peso</label>
+                  <div class="control">
+                    <input id="p" class="input" type="number" placeholder="peso en kg">
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="label is-size-6">Genero</label>
+                  <div class="control">
+                    <label class="radio">
+                      <input type="radio" name="answer" value="0.9" checked>
+                      M
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="answer" value="1">
+                      H
+                    </label>
+                  </div>
+                </div>
+
+                <button class="button is-primary" type="button" onclick="procesar('t','e','p')">Procesar</button>
+              </form>
+
+              <!-- <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/640x480.png">
+              </figure> -->
+
+
+
+
+
+              <div class="box">
+                <div class="block"> <strong>Resultado: </strong>
+                </div>
+                <p id="result"></p>
+
+
+              </div>
+
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article>
+
+            <div class="content">
+              <!-- Content -->
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <!-- footer -->
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+          <ul>
+            <li class="is-active">
+              <a> <strong>&copy; RIVEROS CRUZ SARA</strong></a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+
+
+
+
+  </section>
+
+  <script src="./logica.js"></script>
+
+</body>
+
+
+
+
+
+
+
+</html>

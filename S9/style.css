@@ -1,0 +1,82 @@
+body {
+    background-color: #1c1d1e;
+    font-family: Verdana, Helvetica;
+    font-size: 12px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+
+
+td {
+    align-content: center;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+table {
+    align-content: left;
+    background-color: #d3d8df;
+    border-style: dashed;
+}
+
+.recuadro {
+    width: 50px;
+    padding-top: 10px;
+
+}
+
+
+
+
+.boton {
+    font-size: 12px;
+
+    background: white;
+
+    width: 80px;
+    height: 29px;
+    text-align: center;
+    border: 2px solid #4CAF50;
+
+
+}
+
+.boton:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+#result {
+
+    font-family: Verdana, Helvetica;
+    font-size: 12px;
+
+    width: 150px;
+    height: 50px;
+    text-align: left;
+
+}
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.cuadrado-2 {
+    width: 100px;
+    height: 100px;
+    border: 3px outset #555;
+    padding: 10px;
+}
